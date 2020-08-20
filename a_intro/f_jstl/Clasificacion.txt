@@ -1,0 +1,7 @@
+
+1.  Core Tags: out, set if choose, foreach()
+
+2.  Formatting tags
+3.  SQL tags
+4.  XML tags
+5.  JSTL (Function) Functions

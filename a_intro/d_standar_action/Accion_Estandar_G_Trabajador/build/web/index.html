@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DATOS DEL TRABAJADOR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <H1>PASAR LOS DATOS DIRECTAMENTE AL JSP</H1>
+        
+        <H2>DATOS DEL TRABAJADOR</H2>
+        
+        <form  method="POST" action="TrabajadorJSP.jsp">
+            <!-- En la propiedad name quitamos la palabra campo -->
+            Nombre            <input type="text" name="nombre" required="" /> <br>
+            Sueldo por Hora   <input type="text" name="sueldoPorHora" required="" /> <br>
+            Horas trabajadas  <input type="text" name="horasTrabajadas" required="" /> <br>
+            <input type="submit" value="Enviar Datos" />
+        </form>
+        
+    </body>
+</html>

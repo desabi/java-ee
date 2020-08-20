@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>cuenta bancaria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>Escribe los datos de la cuenta</h1>
+        
+        <form action="CuentaControlador" method="POST">
+            
+            Banco:     <input type="text" name="banco" value="" /> <br />
+            Numero:    <input type="text" name="numero" value="" /> <br />
+            
+            <br /><br />
+            <p>Datos del Propietario</p>
+            Nombre <input type="text" name="nombre" value="" /> <br />
+            Telefono:    <input type="text" name="telefono" value="" /> <br /> <br />
+            
+            <input type="submit" value="Enviar Datos" />
+            
+        </form>
+    </body>
+</html>

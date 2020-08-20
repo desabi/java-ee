@@ -1,0 +1,14 @@
+
+ 1. Scriptlet:     <% %>
+		   <%
+			out.println(Counter.getCount());
+		   %>
+
+ 2. Directive:     <%@ %>
+		   <%@ page import="foo.*" %>
+
+ 3. Expression:    <%= %>
+		   <%= Counter.getCount() %>
+
+ 4. Declaration:   <%! %>
+		   <%! int count=0; %>

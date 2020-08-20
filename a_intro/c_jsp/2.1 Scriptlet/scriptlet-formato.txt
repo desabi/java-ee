@@ -1,0 +1,6 @@
+ 1. Scriptlet:     
+    <% %>
+
+	<%
+	    out.println(Counter.getCount());
+	%>

@@ -1,0 +1,24 @@
+
+Fuente:
+http://www.codejava.net/coding/jsp-servlet-jdbc-mysql-create-read-update-delete-crud-example
+
+FORMAS DE LLAMAR AL CONTROLADOR/SERVLET
+
+Cuando ejecuta el proyecto, se abre el navegador y automaticamente ejecuta el index.
+Si queremos cambiarlo para que ejecute el controlador automaticamente, 
+debe quedar como se muestra en la linea 9 del siguiente ejemplo:
+
+<servlet-mapping>
+    <servlet-name>LibroControlador</servlet-name>
+    <!-- <url-pattern>/LibroControlador</url-pattern> -->
+    <url-pattern>/</url-pattern>
+</servlet-mapping>
+
+
+FORMAS DE LLAMAR AL CONTROLADOR/SERVLET
+
+<!-- <a href="LibroControlador">Ver libros</a>-->
+        
+<jsp:forward page="/UserController?action=listUser" />
+        
+<% response.sendRedirect("LibroControlador?accion=lista"); %>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>PASAR DATOS DIRECTAMENTE AL JSP</h1>
+        
+        <H1>DATOS DE LA PERSONA </H1>
+        
+        <form method="POST" action="PersonaJSP.jsp">
+            
+            <!-- En la propiedad name quitamos la palabra campo -->
+            
+            Nombre   <input type="text" name="nombre" required="" /> <br>
+            Edad     <input type="text" name="edad" required="" /> <br>
+            Estatura <input type="text" name="estatura" required="" /> <br>
+            Telefono <input type="text" name="telefono" required="" /> <br>
+            <input type="submit" value="Enviar Datos" />
+            
+        </form>
+    </body>
+</html>

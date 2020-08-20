@@ -1,0 +1,3 @@
+4. Declaration:   
+   <%! %>
+   <%! int count=0; %>
